@@ -1,0 +1,2 @@
+@import './fonts/fontawesome/style.wxss';
+@import './fonts/i-icon/style.wxss';

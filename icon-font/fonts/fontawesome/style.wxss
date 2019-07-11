@@ -1,0 +1,16 @@
+@import './font.wxss';
+@import './icon.wxss';
+
+/* Font Awesome 样式 */
+
+.fa {
+  font-family: 'Font Awesome 5 Free Solid';
+  font-weight: 900;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}

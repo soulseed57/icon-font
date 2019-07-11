@@ -1,0 +1,17 @@
+@import './font.wxss';
+@import './icon.wxss';
+
+.i-icon {
+    display: inline-block;
+    font-family: iconfont;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle
+}

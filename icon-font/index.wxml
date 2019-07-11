@@ -1,0 +1,7 @@
+<view style="display: flex; flex-direction: row; justify-content: left; align-items: center; line-height: {{ size + 4 }}px;">
+    <image wx:if="{{ isImg == true }}" src="{{ path }}" class="i-class" style="width: {{ size }}px; height: {{ size }}px; {{ color ? 'color:' + color : '' }}" />
+    <view wx:else style="font-size: {{ size }}px; {{ color ? 'color:' + color : '' }}">
+        <view wx:if="{{ prefix === 'i-icon' }}" class="i-class i-icon {{ 'i-icon-' +  path }}" />
+        <view wx:elif="{{ prefix === 'fa' }}" class="i-class fa {{ 'fa-' +  path }}" />
+    </view>
+</view>
