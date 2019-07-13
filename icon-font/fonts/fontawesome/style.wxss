@@ -1,8 +1,6 @@
 @import './font.wxss';
 @import './icon.wxss';
 
-/* Font Awesome 样式 */
-
 .fa {
   font-family: 'Font Awesome 5 Free Solid';
   font-weight: 900;
